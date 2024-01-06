@@ -12,7 +12,7 @@ body {
 
 header {
   background-color: #000814;
-  height: 10vh;
+  height: 6vh;
   width: 100%;
   display: flex;
 }
@@ -46,7 +46,7 @@ header nav {
   width: 100%;
   display: flex;
   justify-content: right;
-  margin-top: 13px;
+  margin-top: 3px;
   margin-right: 50px;
 }
 
@@ -74,7 +74,7 @@ nav span {
   position: absolute;
   height: 25px;
   width: 50px;
-  top: 20px;
+  top: 10px;
   right: 120px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -128,7 +128,7 @@ nav a:nth-child(2):hover ~ span {
   position: absolute;
   height: 25px;
   width: 50px;
-  top: 20px;
+  top: 10px;
   right: 57px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -197,27 +197,27 @@ nav a:nth-child(2):hover ~ span {
   color: white;
 }
 
-.wrapper .button:nth-child(2):hover .icon {
+.wrapper .button:nth-child(1):hover .icon {
   background-color: #e1306c;
 }
 
-.wrapper .button:nth-child(3):hover .icon {
+.wrapper .button:nth-child(2):hover .icon {
   background-color: #333;
 }
 
-.wrapper .button:nth-child(4):hover .icon {
+.wrapper .button:nth-child(3):hover .icon {
   background-color: #5865f2;
 }
 
-.wrapper .button:nth-child(2):hover span {
+.wrapper .button:nth-child(1):hover span {
   color: #e1306c;
 }
 
-.wrapper .button:nth-child(3):hover span {
+.wrapper .button:nth-child(2):hover span {
   color: #333;
 }
 
-.wrapper .button:nth-child(4):hover span {
+.wrapper .button:nth-child(3):hover span {
   color: #5865f2;
 }
 
@@ -256,4 +256,45 @@ nav a:nth-child(2):hover ~ span {
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
+}
+
+@media screen and (max-width: 450px) {
+  header nav{
+    margin-top: 8px;
+  }
+  nav span {
+    top: 14px;
+  }
+  .iniSpan{
+    top: 14px;
+  }
+  .wrapper .sosmed{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 41vh;
+    padding: 10px 60.5px 0 60.5px;
+    border-radius: 0 0 10px 10px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
+    -o-border-radius: 0 0 10px 10px;
+}
+  .wrapper h1{
+    font-family: 'Varela Round';
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top: 30vh;
+    background-color: #000814;
+    color: white;
+    width: auto;
+    padding: 5px 10px 70px 10px;
+    border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -ms-border-radius: 10px 10px 10px 10px;
+    -o-border-radius: 10px 10px 10px 10px;
+}
 }
