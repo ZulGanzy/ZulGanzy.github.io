@@ -143,15 +143,31 @@ nav a:nth-child(2):hover ~ span {
 }
 
 .wrapper {
-  /* background-color: yellow; */
   height: 90vh;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
+.wrapper h1{
+  font-family: 'Varela Round';
+  font-weight: bold;
+  position: absolute;
+  background-color: #000814;
+  color: white;
+  height: 35px;
+  width: auto;
+  padding: 0 10px 5px 10px;
+  border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+}
+
 .wrapper .button {
   display: inline-block;
+  color: black;
   background-color: white;
   height: 30px;
   width: 30px;
